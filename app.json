@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Contador-de-Dias",
-    "slug": "Contador-de-Dias",
+    "name": "NexLove",
+    "slug": "NexLove",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,7 +24,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.pedronex.NexLove"
     },
     "web": {
       "favicon": "./assets/favicon.png"

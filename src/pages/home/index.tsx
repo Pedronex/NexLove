@@ -9,6 +9,7 @@ import {
   Button,
   Container,
   Discord,
+  GroupButton,
   Header,
   TextButton,
   Title,
@@ -83,14 +84,16 @@ export function Home() {
       <Title>{hours} horas</Title>
       <Title>{minutes} minutos</Title>
       <Title>{seconds} segundos</Title>
-      {months === 0 && days === 0 && (
-        <Button onPress={handleRainEmoji}>
-          <TextButton>Comemorar Aniversário de Namoro</TextButton>
-        </Button>
-      )}
-      <Discord onPress={handleOpenDiscord}>
-        <TextButton>Discord</TextButton>
-      </Discord>
+      <GroupButton>
+        {months === 0 && days === 0 && (
+          <Button onPress={handleRainEmoji}>
+            <TextButton>Comemorar Aniversário de Namoro</TextButton>
+          </Button>
+        )}
+        <Discord onPress={handleOpenDiscord}>
+          <TextButton>Discord</TextButton>
+        </Discord>
+      </GroupButton>
     </Container>
   );
 }
