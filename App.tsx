@@ -1,11 +1,11 @@
 import { StatusBar } from "expo-status-bar";
-import { Main } from "./src/main";
+import { Routes } from "./src/routes";
 
 export default function App() {
   return (
     <>
       <StatusBar translucent style="light" />
-      <Main />
+      <Routes />
     </>
   );
 }

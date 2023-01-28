@@ -24,8 +24,15 @@ export const GroupButton = styled.View`
   width: 100%;
 `;
 
-export const Button = styled.TouchableOpacity`
+export const ButtonEvent = styled.TouchableOpacity`
   width: 70%;
+  background-color: #ff5858;
+  padding: 10px;
+  border-radius: 10px;
+`;
+
+export const ButtonMusic = styled.TouchableOpacity`
+  width: 40%;
   background-color: #ff5858;
   padding: 10px;
   border-radius: 10px;
@@ -51,4 +58,11 @@ export const Header = styled.Text`
   font-weight: bold;
   color: #fff;
   text-align: center;
+`;
+
+export const ButtonLinks = styled.TouchableOpacity`
+  width: 40%;
+  background-color: #5865f2;
+  padding: 10px;
+  border-radius: 10px;
 `;
